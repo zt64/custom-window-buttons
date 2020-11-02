@@ -17,7 +17,7 @@ To install this plugin you can either download it as a zip and extract to your p
 git clone https://github.com/Litleck/no-linux-frame.git
 ```
 
-For the plugin to look proper you will need to edit a file that is a part of Powercord. This file can be found in your powercord install directory at `/src/Powercord/browserWindow.js`
+For the plugin to look proper you will need to edit a file that is a part of Powercord. This file can be found in your powercord install directory at `/src/browserWindow.js`
 
 Open `browserWindow.js` in your preferred editor and navigate to line 44. On that line you want to type in:
 

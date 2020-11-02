@@ -3,7 +3,7 @@
 No Linux Frame is a plugin for the Discord modification known as Powercord. What this plugin will do is add minimize, maximize, and close buttons to the toolbar, along with making it draggable.
 
 ## Note
-This plugin was designed only for linux distributions, not for Windows or any other operating system.
+This plugin was designed only for Linux distributions, not for Windows or any other operating system.
 
 It is very likely with the eventual release of V3 for Powercord that this plugin will no longer work.
 
@@ -19,7 +19,17 @@ git clone https://github.com/Litleck/no-linux-frame.git
 
 For the plugin to look proper you will need to edit a file that is a part of Powercord. This file can be found in your powercord install directory at `/src/browserWindow.js`
 
-Open `browserWindow.js` in your preferred editor and navigate to line 44. On that line you want to type in:
+Open `browserWindow.js` in your preferred editor look for:
+
+```js
+if (transparency) {
+  opts.transparent = true;
+  opts.frame = process.platform === 'win32' ? false : opts.frame;
+  delete opts.backgroundColor;
+}
+```
+
+Right below this segment of code add the following:
 
 ```js
 opts.frame = false;

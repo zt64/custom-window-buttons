@@ -2,9 +2,8 @@
 
 No Linux Frame is a plugin for the Discord modification known as Powercord. What this plugin will do is add minimize, maximize, and close buttons to the toolbar, along with making it draggable.
 
-This plugin was designed only for linux distributions, not for Windows or and other operating system.
-
 ## Note
+This plugin was designed only for linux distributions, not for Windows or any other operating system.
 
 It is very likely with the eventual release of V3 for Powercord that this plugin will no longer work.
 

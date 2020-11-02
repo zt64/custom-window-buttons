@@ -19,7 +19,7 @@ git clone https://github.com/Litleck/no-linux-frame.git
 
 For the plugin to look proper you will need to edit a file that is a part of Powercord. This file can be found in your powercord install directory at `/src/browserWindow.js`
 
-Open `browserWindow.js` in your preferred editor look for:
+Open `browserWindow.js` in your preferred editor and look for:
 
 ```js
 if (transparency) {

@@ -2,6 +2,6 @@
   "name": "No Linux Frame",
   "description": "Removes the frame and relocates the minimize, maximize and close buttons to the toolbar.",
   "author": "Möth#4096",
-  "version": "1.0",
+  "version": "1.1",
   "license": "MIT"
 }

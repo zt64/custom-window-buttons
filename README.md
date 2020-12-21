@@ -10,7 +10,7 @@ It is very likely with the eventual release of V3 for Powercord that this plugin
 ## Installation
 Due to Powercord limitations installation isn't as simple as other plugins. 
 
-To install this plugin you can either download it as a zip and extract to your plugins directory, or clone it with the command below.
+To install this plugin clone it with the command below.
 
 
 ```bash

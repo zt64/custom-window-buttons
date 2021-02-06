@@ -1,7 +1,24 @@
+.cwb-settings-flex {
+  display: flex;
+  margin-right: 8px
+}
+
 .title-3qD0b- {
   -webkit-app-region: drag;
 }
 
 .children-19S4PO {
   -webkit-app-region: no-drag;
+}
+
+.container-1r6BKw {
+  -webkit-app-region: drag;
+}
+
+.keybind-KpFkfr {
+  -webkit-app-region: drag;
+}
+
+.discoverHeader-1TWTqG {
+  -webkit-app-region: drag;
 }

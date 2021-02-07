@@ -18,7 +18,7 @@ module.exports = class CustomWindowButtons extends Plugin {
 
     powercord.api.settings.registerSettings('custom-window-buttons', {
       category: this.entityID,
-      label: 'No Linux Frame',
+      label: 'Custom Window Buttons',
       render: Settings
     });
 
